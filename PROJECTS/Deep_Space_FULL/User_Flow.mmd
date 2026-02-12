@@ -1,0 +1,62 @@
+To create a user flow diagram using the Mermaid.js syntax for the DEEP_SPACE project, let's proceed with the key functionalities and steps in the user journey. This diagram will map the user's path through the primary features outlined in the analysis.
+
+```mermaid
+graph TD
+    A[Start] --> B[Login Screen]
+    B -->|Login Success| C[Dashboard]
+
+    C --> D{Choose Option}
+    D -->|Live Route Map| E["The Orrery" - View Live Route Map]
+    D -->|Cargo Manifest| F[Cargo Manifest System]
+    D -->|Fuel Calculator| G[Fuel & Physics Calculator]
+    D -->|Red Alert Mode| H[Emergency Protocols]
+
+    E --> E1[View Spacecraft Details]
+    E1 --> E2[View Manifests]
+    E1 --> E3[Check Velocity and ETA]
+
+    F --> F1[Filter Cargo by Priority]
+    F1 --> F2[View Cargo Details]
+    F --> F3[Search for Cargo]
+
+    G --> G1[Input Ship and Route Details]
+    G1 --> G2[Calculate Fuel Requirements]
+    G2 -->|Alert for Insufficient Fuel| G3[Send Alert Notification]
+
+    H --> H1[Activate Red Alert UI]
+    H --> H2[Send Encrypted SOS]
+    H2 --> H3[Verify Secure Transmission]
+
+    E3 --> D
+    F3 --> D
+    G3 --> D
+    H3 --> D
+
+    D --> I[Logout]
+    I --> A
+```
+
+### Description:
+- **Login Screen:** Users start at the login screen, where they enter credentials.
+- **Dashboard:** Upon successful login, users are directed to the main dashboard, serving as the navigation hub.
+  
+#### Key User Options:
+1. **The Orrery (Live Route Map):**
+   - Users can view a live map showing spacecraft.
+   - They can interact to see spacecraft details like manifests, velocity, and ETA.
+
+2. **Cargo Manifest System:**
+   - Users can filter and search cargo based on priority or type.
+   - Detailed views of cargo manifests are accessible for deeper insights.
+
+3. **Fuel & Physics Calculator:**
+   - Users input ship details and trajectory to calculate required fuel.
+   - Alerts are sent if calculations show insufficient fuel for a mission.
+
+4. **Emergency Protocols:**
+   - Engage "Red Alert" mode to switch the UI for emergencies.
+   - Send encrypted SOS messages and verify the secure transmission of alerts.
+
+- Users can navigate back to the dashboard after performing tasks within each module or log out to end their session.
+
+This flow captures the major interactions and workflows envisioned for the DEEP_SPACE project, aligning with user tasks and objectives.

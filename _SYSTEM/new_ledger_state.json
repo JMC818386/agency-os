@@ -1,0 +1,5 @@
+[
+  { "id": "TASK-001", "workstream": "Management", "output": "PROJECTS/Deep_Space/Plan.md" },
+  { "id": "TASK-002", "workstream": "Research", "output": "PROJECTS/Deep_Space/Analysis.md" },
+  { "id": "TASK-003", "workstream": "Design", "output": "PROJECTS/Deep_Space/Wireframes.json" }
+]

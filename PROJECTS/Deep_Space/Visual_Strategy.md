@@ -1,0 +1,5 @@
+## Visual Strategy
+
+**Logo Prompt:** "Create a modern, professional logo design for a project that emphasizes minimalism and uses a vector style. The logo should feature a white background. Consider the key elements of the project: objectives, target audience, project scope, deliverables, budget, timeline, stakeholders, risks, and constraints. Design a logo that embodies these aspects with simplicity and elegance."
+
+**Mockup Prompt:** Design a high-fidelity landing page UI mockup focused on a modern, clean aesthetic reminiscent of Dribbble style. Emphasize a striking hero section in dark mode, showcasing sleek typography and intuitive navigation elements. The page should include placeholder areas for sections such as objectives, target audience, project scope, deliverables, budget, timeline, stakeholders, risks, and constraints, even if these are not specified. Envision a layout with a harmonious balance of visual elements and text, ensuring optimal user engagement and readability.
